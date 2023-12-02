@@ -1,0 +1,200 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 1 dic 2023, 23:43:45
+    Author     : PC2
+*/
+
+
+body{
+    background: #c0c0c0;
+}
+.listadoEmpleado td{
+    margin: 0 auto;
+    border: 3px solid #1c3d98;
+    font-size: 25px;
+    padding: 8px;
+    color: white;
+    background: #1c3d98;
+    border-collapse: collapse;
+    
+}
+
+.TextoTabla{
+  color: #1c3d98;
+text-align: center;
+font-weight: bold;
+font-size: 30px;
+}
+.textConexion{
+color: #308446;
+
+font-weight: bold;
+font-size: 30px;
+}
+
+.envio1 {
+  text-align: center; /* Centra el botón */
+}
+.envio {
+  background-color: #1c3d98;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cajaUsu {
+  margin-bottom: 15px; 
+}
+
+
+.cajaUsu input[type="text"] {
+  width: 20%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.cajaUsu input[type="text"]:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.boton {
+  border-radius: 8px;
+  padding: 5px;
+  color: #1c3d98;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.cajaContra input[type="password"] {
+  width: 20%; 
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+
+
+
+.hora1 {
+  font-family: Arial, sans-serif; 
+  font-size: 18px; 
+  color:#1c3d98;
+  margin-bottom: 10px;
+}
+
+
+.tama {
+  font-weight: bold; 
+}
+
+
+.hora {
+  color: #1c3d98;
+}
+
+.sisLog {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sisLog h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  color: #1c3d98;
+  margin: 0;
+}
+
+.enlaces1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #c0c0c0;
+  width: 200px; 
+}
+
+.enlaces1 li {
+  display: block;
+  border-bottom: 1px solid #ccc; 
+}
+
+.enlaces1 li a {
+  display: block;
+  border: 3px solid #1c3d98;
+  color: #1c3d98;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+.enlaces1 li a:hover {
+  background-color: #ddd;
+}
+
+.enlacesColor1 {
+  color: #3498db;
+}
+
+.enlacesColor2 {
+  color: #e74c3c;
+}
+
+.welcome {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.welcome h3 {
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  color: #1c3d98;
+}
+
+.bien {
+  font-weight: bold;
+}
+
+.foot {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #1c3d98;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+
+.foot p {
+  margin: 0;
+  font-weight: bold;
+}
+
+
+.temapg1 {
+
+  width: 30%;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  color: #1c3d98;
+
+}
+
+.temapg1 p {
+  margin: 0;
+  font-weight: bold;
+}
